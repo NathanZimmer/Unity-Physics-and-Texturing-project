@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - World
+  - Object
+  - Lighting Effect
+  - Inspect
+  - Inspecting
+  - tool
+  - Heavy Object
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - PostPorcessing and Lighting
+  - Water
+  - UI
+  - Player
+  - World
+  - Objects
+  - On Top
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ispecting
+    uniqueID: 234634619
+    locked: 0
+  - name: UI
+    uniqueID: 917715467
+    locked: 0
