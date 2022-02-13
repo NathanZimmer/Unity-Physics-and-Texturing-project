@@ -89,53 +89,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1544}
+      Script: {instanceID: 1570}
     - Class: 114
-      Script: {instanceID: 1732}
+      Script: {instanceID: 1758}
     - Class: 114
-      Script: {instanceID: 1904}
+      Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 1928}
+      Script: {instanceID: 1954}
     - Class: 114
-      Script: {instanceID: 1970}
+      Script: {instanceID: 1996}
     - Class: 114
-      Script: {instanceID: 2192}
+      Script: {instanceID: 2210}
     - Class: 114
-      Script: {instanceID: 2326}
+      Script: {instanceID: 2220}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2636}
+      Script: {instanceID: 2372}
     - Class: 114
-      Script: {instanceID: 2666}
+      Script: {instanceID: 2664}
     - Class: 114
-      Script: {instanceID: 2786}
+      Script: {instanceID: 2694}
     - Class: 114
-      Script: {instanceID: 2820}
+      Script: {instanceID: 2814}
     - Class: 114
-      Script: {instanceID: 2864}
+      Script: {instanceID: 2848}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 2892}
     - Class: 114
-      Script: {instanceID: 3012}
+      Script: {instanceID: 3034}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3252}
+      Script: {instanceID: 3258}
     - Class: 114
-      Script: {instanceID: 3540}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3586}
+      Script: {instanceID: 3568}
     - Class: 114
-      Script: {instanceID: 3626}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 3630}
+      Script: {instanceID: 3654}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3658}
     - Class: 114
-      Script: {instanceID: 3896}
+      Script: {instanceID: 3876}
     - Class: 114
-      Script: {instanceID: 108318}
+      Script: {instanceID: 3924}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -365,6 +365,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 190eb3441d0db6b1179f4837b093438f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Respawn
   - hash:
       serializedVersion: 2
       Hash: 1ace16efa0e2dc6d1352388a0271656f
@@ -755,12 +761,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
-  - hash:
-      serializedVersion: 2
-      Hash: 190eb3441d0db6b1179f4837b093438f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Respawn
   platform: 5
   scenePathNames:
   - Assets/Scenes/Library.unity
