@@ -116,7 +116,7 @@ public class PlayerMovementV2 : MonoBehaviour
 
     private void Crouch()
     {
-        if (Input.GetKey(KeyCode.C) && co.height > crouchHeight)
+        if (Input.GetKey(KeyCode.LeftControl) && co.height > crouchHeight)
         {
             float prevHeight = co.height;
             co.height = Mathf.Max(co.height - crouchSpeed, crouchHeight);
@@ -128,7 +128,7 @@ public class PlayerMovementV2 : MonoBehaviour
                 transform.position -= new Vector3(0, (prevHeight - co.height) / 2, 0) * 2;
             }
         }
-        else if (!Input.GetKey(KeyCode.C) && co.height < origHeight && !Physics.SphereCast(transform.position, co.radius, Vector3.up, out RaycastHit hit, co.bounds.extents.y + 0.1f, groundMask))
+        else if (!Input.GetKey(KeyCode.LeftControl) && co.height < origHeight && !Physics.SphereCast(transform.position, co.radius, Vector3.up, out RaycastHit hit, co.bounds.extents.y + 0.1f, groundMask))
         {
             float prevHeight = co.height;
             co.height = Mathf.Min(co.height + crouchSpeed, origHeight);
@@ -146,11 +146,11 @@ public class PlayerMovementV2 : MonoBehaviour
     private void MovementModifiers()
     {
         // crouch modifier
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.LeftControl))
         {
             acceleration = acceleration * crouchModifier;
         }
-        else if (Input.GetKeyUp(KeyCode.C))
+        else if (Input.GetKeyUp(KeyCode.LeftControl))
         {
             acceleration = acceleration / crouchModifier;
         }

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7B44DAFD-0174-CEFA-75A0-6F57ABD844FB}</ProjectGuid>
+    <ProjectGuid>{95A0E7B2-480C-2ED0-35ED-73FB8F2F4854}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MouseLookV2.cs" />
     <Compile Include="Assets\Scripts\DrawerContents.cs" />
+    <Compile Include="Assets\Scripts\Respawn.cs" />
     <Compile Include="Assets\Scripts\Clock.cs" />
     <Compile Include="Assets\Scripts\RestricPositionRB.cs" />
     <Compile Include="Assets\Scripts\RestricPosition.cs" />
@@ -65,7 +66,7 @@
     <Compile Include="Assets\Scripts\fanmovement.cs" />
     <Compile Include="Assets\Scripts\InteractUI.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementV2.cs" />
-    <Compile Include="Assets\Scripts\Respawn.cs" />
+    <Compile Include="Assets\Scripts\Pause.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

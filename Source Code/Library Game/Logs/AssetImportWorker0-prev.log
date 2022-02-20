@@ -1,0 +1,313 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1466; Version 2009; 64bit' Language: 'en' Physical Memory: 16335 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Documents\Unity\2020.3.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Nathan Zimmer/Documents/GitHub/Unity-Physics-and-Texturing-project/Source Code/Library Game
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62698
+Successfully changed project path to: C:/Users/Nathan Zimmer/Documents/GitHub/Unity-Physics-and-Texturing-project/Source Code/Library Game
+C:/Users/Nathan Zimmer/Documents/GitHub/Unity-Physics-and-Texturing-project/Source Code/Library Game
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 34.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
+[Subsystems] Discovering subsystems at path C:/Documents/Unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Nathan Zimmer/Documents/GitHub/Unity-Physics-and-Texturing-project/Source Code/Library Game/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   30.0.14011.3017
+Initialize mono
+Mono path[0] = 'C:/Documents/Unity/2020.3.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Documents/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Documents/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Documents/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Documents/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003810 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 38.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.757 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001018 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1259 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.6 MB.
+System memory in use after: 74.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1711.
+Total: 3.065300 ms (FindLiveObjects: 0.160400 ms CreateObjectMapping: 0.035800 ms MarkObjects: 2.735100 ms  DeleteObjects: 0.132100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Materials/Moon.mat
+  artifactKey: Guid(03d3d859aa672ff4d98c1a3df5952be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Moon.mat using Guid(03d3d859aa672ff4d98c1a3df5952be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471aa448eb993c93ac2554f3f733a863') in 0.142538 seconds
+  Import took 0.145057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b454f36992cf9720a4ade4575b9297a7') in 0.038456 seconds
+  Import took 0.040717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092623 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4971f4ee26649245eb0e58b7d866df0') in 0.048655 seconds
+  Import took 0.051097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051145 seconds.
+  path: Assets/Textures/moon/ldem_3_8bit.jpg
+  artifactKey: Guid(1155ee293656ac6488010cc96a73e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_3_8bit.jpg using Guid(1155ee293656ac6488010cc96a73e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb95884a070dccfb4b04d5b7788560b') in 0.015911 seconds
+  Import took 0.018250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007191 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0993fc02711b3bbe6d995d41cc54c5cd') in 0.077389 seconds
+  Import took 0.080757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.505919 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6325ae9a70782a205d52cf1addc2954c') in 0.024548 seconds
+  Import took 0.028370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004283 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6325ae9a70782a205d52cf1addc2954c') in 0.015628 seconds
+  Import took 0.019012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081651 seconds.
+  path: Assets/Textures/moon/lroc_color_poles_1k.jpg
+  artifactKey: Guid(3e91376b9128b234f94c44f1c082f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/lroc_color_poles_1k.jpg using Guid(3e91376b9128b234f94c44f1c082f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c1a8ee6f7f436976da3dbf63171f23') in 0.015004 seconds
+  Import took 0.017530 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001618 seconds.
+  path: Assets/Textures/moon/lroc_color_poles_1k.jpg
+  artifactKey: Guid(3e91376b9128b234f94c44f1c082f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/lroc_color_poles_1k.jpg using Guid(3e91376b9128b234f94c44f1c082f49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c1a8ee6f7f436976da3dbf63171f23') in 0.013073 seconds
+  Import took 0.016029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.108634 seconds.
+  path: Assets/Materials/Moon.mat
+  artifactKey: Guid(03d3d859aa672ff4d98c1a3df5952be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Moon.mat using Guid(03d3d859aa672ff4d98c1a3df5952be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c666aefeb1d32718ac37a99f630de1ad') in 0.018715 seconds
+  Import took 0.021434 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1760.
+Total: 1.846400 ms (FindLiveObjects: 0.185200 ms CreateObjectMapping: 0.034100 ms MarkObjects: 1.567300 ms  DeleteObjects: 0.058800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.309899 seconds.
+  path: Assets/Textures/moon
+  artifactKey: Guid(f98fdf343c7e9104bb6786fa667f5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon using Guid(f98fdf343c7e9104bb6786fa667f5c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f61101f1649bbbe18e31f74ea2b9d5') in 0.011645 seconds
+  Import took 0.014099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045018 seconds.
+  path: Assets/Textures/moon/ldem_3_8bit normal.jpg
+  artifactKey: Guid(5b66da856026f4a4b9b5aa5227fbf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_3_8bit normal.jpg using Guid(5b66da856026f4a4b9b5aa5227fbf6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0766053cf672c121737874dca8e7810') in 0.045475 seconds
+  Import took 0.047975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.775921 seconds.
+  path: Assets/Textures/moon/lroc_color_poles_2k.tif
+  artifactKey: Guid(e333d3b49d35aac49aff6c496f086001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/lroc_color_poles_2k.tif using Guid(e333d3b49d35aac49aff6c496f086001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a3e4820d80a19236227b40bd8558ae') in 0.017245 seconds
+  Import took 0.019660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.410931 seconds.
+  path: Assets/Textures/moon/ldem_4_uint.tif
+  artifactKey: Guid(0ef8767e6b2515045a0373efd52e8cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_4_uint.tif using Guid(0ef8767e6b2515045a0373efd52e8cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5b660f491eea0ac5fa6677733a7b75') in 0.012270 seconds
+  Import took 0.014675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.450904 seconds.
+  path: Assets/Textures/moon/ldem_4_uint (1).tif
+  artifactKey: Guid(4402577e16eee7a4597b8de9763e2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_4_uint (1).tif using Guid(4402577e16eee7a4597b8de9763e2534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e52f15803dd07e50801653a14592e548') in 0.012673 seconds
+  Import took 0.015174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.594136 seconds.
+  path: Assets/Textures/moon/ldem_16_uint.tif
+  artifactKey: Guid(05804d7c3ff04e64dacfd291a44c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_16_uint.tif using Guid(05804d7c3ff04e64dacfd291a44c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdfa5fa91062aaee43580acccd8c3f1') in 0.013782 seconds
+  Import took 0.016152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001430 seconds.
+  path: Assets/Textures/moon/ldem_16_uint.tif
+  artifactKey: Guid(05804d7c3ff04e64dacfd291a44c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_16_uint.tif using Guid(05804d7c3ff04e64dacfd291a44c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdfa5fa91062aaee43580acccd8c3f1') in 0.010565 seconds
+  Import took 0.012675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.206764 seconds.
+  path: Assets/Textures/moon/ldem_16_uint normal.tif
+  artifactKey: Guid(3772dd361b134cd47a588fa066b73eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_16_uint normal.tif using Guid(3772dd361b134cd47a588fa066b73eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af832375546c840bd4e6755e21f11c8a') in 0.014402 seconds
+  Import took 0.017403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.624412 seconds.
+  path: Assets/Textures/moon/ldem_16_uint normal.tif
+  artifactKey: Guid(3772dd361b134cd47a588fa066b73eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_16_uint normal.tif using Guid(3772dd361b134cd47a588fa066b73eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6dec7c3300513ed597bbb74802f1500') in 0.015068 seconds
+  Import took 0.017531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.174247 seconds.
+  path: Assets/Textures/moon/ldem_16_uint.tif
+  artifactKey: Guid(05804d7c3ff04e64dacfd291a44c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_16_uint.tif using Guid(05804d7c3ff04e64dacfd291a44c6180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc9da4a273afeffb114f73b3b872aa4') in 0.018373 seconds
+  Import took 0.020850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.232764 seconds.
+  path: Assets/Textures/moon/lroc_color_poles_2k.tif
+  artifactKey: Guid(e333d3b49d35aac49aff6c496f086001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/lroc_color_poles_2k.tif using Guid(e333d3b49d35aac49aff6c496f086001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfdc21c4a9b4bf30b19f273570d9a03a') in 0.009576 seconds
+  Import took 0.012025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.870023 seconds.
+  path: Assets/Textures/moon/ldem_16_uint normal.tif
+  artifactKey: Guid(3772dd361b134cd47a588fa066b73eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/moon/ldem_16_uint normal.tif using Guid(3772dd361b134cd47a588fa066b73eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be116656f1df8a93843e5b7fd409830c') in 0.029188 seconds
+  Import took 0.031586 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000996 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1213 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.2 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1765.
+Total: 1.999000 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.033200 ms MarkObjects: 1.706000 ms  DeleteObjects: 0.066300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.01 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.7 MB.
+System memory in use after: 49.8 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1765.
+Total: 1.837800 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.032700 ms MarkObjects: 1.567000 ms  DeleteObjects: 0.058000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -33,9 +33,10 @@ public class interact : MonoBehaviour
     private void Update()
     {
         closeEnough = Physics.Raycast(transform.position, transform.forward, out hit, grabDistance, playerMask);
+        bool isPaused = GetComponentInParent<Pause>().getIsPaused();
 
         // grabbing objects, inspecting, and picking up tools
-        if (Input.GetKeyDown(KeyCode.Mouse0) && closeEnough && !grabbing && !inspecting && !lerping && !grabTool && !toolEquiped)
+        if (Input.GetKeyDown(KeyCode.Mouse0) && closeEnough && !grabbing && !inspecting && !lerping && !grabTool && !toolEquiped && !isPaused)
         {
             if (hit.transform.tag.Equals("Object") || hit.transform.tag.Equals("Heavy Object"))
             {

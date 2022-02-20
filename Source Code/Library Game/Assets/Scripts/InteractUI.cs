@@ -22,6 +22,7 @@ public class InteractUI : MonoBehaviour
         bool grabbing = GetComponentInParent<interact>().getGrabbing();
         bool inspecting = GetComponentInParent<interact>().getInspecting();
         bool toolEquiped = GetComponentInParent<interact>().getToolEquiped();
+        bool isPaused = GetComponentInParent<Pause>().getIsPaused();
 
 
         if (grabbing)
@@ -45,7 +46,7 @@ public class InteractUI : MonoBehaviour
             img.sprite = defaultSprite;
         }
 
-        if (inspecting || toolEquiped)
+        if (inspecting || toolEquiped || isPaused)
         {
             img.enabled = false;
         }
