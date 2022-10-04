@@ -5,4 +5,4 @@ Controls: wasd- movement, left ctrl- crouch, LMB- interact.
 
 Video example:
 
-[![Inverse Kinematics project video](https://img.youtube.com/vi/JXHOFedEs7M/0.jpg)](https://youtu.be/JXHOFedEs7M)
+[![Graphics and Physics Demo](https://img.youtube.com/vi/JXHOFedEs7M/0.jpg)](https://youtu.be/JXHOFedEs7M)
